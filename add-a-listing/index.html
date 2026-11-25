@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Add a listing or fix one | The Peoria Detail Report</title>
+<meta name="description" content="Suggest a mobile car detailing for the Peoria guide, or send a correction to an existing entry.">
+<link rel="canonical" href="https://kingworks-dev.github.io/peoria-detail-guide/add-a-listing/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css?v=1795500214">
+<style>:root{--paper:#f4f2e8;--paper2:#e7e4d3;--ink:#151712;--ink2:#42483c;--ink3:#66705c;--accent:#4a5d2a;--accent2:#657a3a;--dark:#12150e;--on-dark:#eef0e4;--line:rgba(21,23,18,0.16);--line-2:rgba(21,23,18,0.08);--accent-rgb:74,93,42;--dark-rgb:18,21,14}</style>
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="sub-page" style="--wm:24">
+<header class="top solid" id="top">
+  <a class="brand" href="../"><b>The Peoria Detail Report</b><span>Peoria, IL</span></a>
+  <nav aria-label="Guide" id="mnav">
+    <a href="../#list">The list</a>
+    <a href="../how-we-rank/">How we rank</a>
+    <a href="../add-a-listing/">Add a listing</a>
+    <a class="nav-sub" href="../#newsletter">The monthly email</a>
+  </nav>
+  <a class="sub" href="../#list"><span class="ico ico-list"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6.5h11M9 12h11M9 17.5h11"/><path d="M4 6.5h1.5M4 12h1.5M4 17.5h1.5"/></svg></span>See the list</a>
+  <button class="mbtn" id="mbtn" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Menu"><i></i><span>Menu</span></button>
+</header>
+<main class="page">
+  <p class="u-cap">Send us a name</p>
+  <h1>Add a business, or fix one</h1>
+  <p class="deck">The list is only as good as what people tell us. If a good business is missing, or an entry is wrong, this form comes straight to the person who edits the page.</p>
+  <div class="prose">
+    <h2>What gets added</h2>
+    <ul>
+      <li>A business that really serves Peoria or the towns around it.</li>
+      <li>A working phone number or a live website, so the entry is usable.</li>
+      <li>Owners are welcome to send their own entry — say so and we will mark the source.</li>
+    </ul>
+    <p>Free, always. A spot on the list costs nothing and there is no card anywhere in this form.</p>
+    <h2 id="correction">Corrections and removals</h2>
+    <p>Wrong number, wrong town, closed down, or you would rather the business was not listed — send the same form and say what should change. Owners asking to be removed are honoured without argument.</p>
+  </div>
+
+  <div class="formbox">
+    <form id="sform" data-slug="peoria-detail-guide" novalidate>
+      <div class="field"><label for="aname">Your name</label>
+        <input id="aname" name="name" autocomplete="name" required placeholder="Jordan Reyes"></div>
+      <div class="field"><label for="aemail">Your email</label>
+        <input id="aemail" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+      <div class="field"><label for="aservice">Add a listing, or a correction?</label>
+        <select id="aservice" name="service">
+          <option>Add a business</option>
+          <option>Correction to an entry</option>
+          <option>Remove a listing</option>
+        </select></div>
+      <div class="field"><label for="amsg">Business name, town, phone or site, and anything we should know</label>
+        <textarea id="amsg" name="message" rows="5" required placeholder="Name, town, phone or website — and what makes them worth listing."></textarea></div>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-solid btn-lg" type="submit" data-label="Send it">Send it</button>
+      <p class="pol" id="serr" role="alert"></p>
+    </form>
+    <p class="done" id="sdone">Got it — thank you. Additions are reviewed by hand and the page is updated when the list changes.</p>
+  </div>
+  <a class="back" href="../">← Back to the list</a>
+  <div class="page-end"></div>
+</main>
+<footer class="sub-foot">
+  <div class="legal"><span>© <span id="yr">2026</span> The Peoria Detail Report · KING HOLDINGS VENTURES LLC · <a href="../privacy/">Privacy</a> · <a href="../credits/">Photo credits</a></span>
+    <span>Listings checked November 23, 2026.</span></div>
+</footer>
+<script src="../assets/site.js?v=1795500214" defer></script>
+</body>
+</html>
